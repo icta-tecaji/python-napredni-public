@@ -5,6 +5,7 @@
 - [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Working with Jupyter Notebooks in Visual Studio Code](https://code.visualstudio.com/docs/python/jupyter-support)
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
+- [Remote development on a raspberry pi with ssh and VSCode](https://medium.com/@pythonpow/remote-development-on-a-raspberry-pi-with-ssh-and-vscode-a23388e24bc7)
 
 
 ## Pyenv (Linux, Mac)
