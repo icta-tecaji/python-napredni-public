@@ -11,7 +11,7 @@
 ## Pyenv (Linux, Mac)
 - Orodje za upravljanje z več Python verzijami
 - https://github.com/pyenv/pyenv
-- Za Windows: ttps://github.com/pyenv-win/pyenv-win (osnovna podpora)
+- Za Windows: https://github.com/pyenv-win/pyenv-win (osnovna podpora)
 - Virtualna oklja s pomočjo pyenv -> [tutorial](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv)
 
 
