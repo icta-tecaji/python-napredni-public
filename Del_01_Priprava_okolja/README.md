@@ -11,6 +11,8 @@
 - Orodje za upravljanje z več Python verzijami
 - https://github.com/pyenv/pyenv
 - Za Windows: ttps://github.com/pyenv-win/pyenv-win (osnovna podpora)
+- Virtualna oklja s pomočjo pyenv -> [tutorial](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv)
+
 
 ### Namestitev
 - `sudo apt-get update`
@@ -25,11 +27,11 @@ eval "$(pyenv virtualenv-init -)"
 - `exec "$SHELL"`
 
 ### Uporaba
-- Seznam verziji, ki jih je možno namestiti:
+- Seznam verzij, ki jih je možno namestiti:
     - `pyenv install --list`
 - Namestitev:
     - `pyenv install -v <PYTHON_VERSION>`
-- Seznam nameščenih verziji:
+- Seznam nameščenih verzij:
     - `pyenv versions`
 - Izbira globalne verzije:
     - `pyenv global <PYTHON_VERSION>`
@@ -46,5 +48,9 @@ eval "$(pyenv virtualenv-init -)"
     - `deactivate`
 
 ## pip - The Python Package Installer
-- 
-
+- Posodobitetv pip-a:
+    - `python -m pip install --upgrade pip`
+- Namestitev paketov v datoteki `requirements.txt`:
+    - `pip install -r requirements.txt`
+- posodobitev paketov v datoteki `requirements.txt`:
+    - `pip install --upgrade -r requirements.txt`
