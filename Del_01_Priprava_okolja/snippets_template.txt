@@ -1,0 +1,24 @@
+"todo": {
+        "prefix": "todo",
+        "body": [
+            "# TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "
+        ]
+    }
+
+
+"Read file to string function": {
+    "prefix": "read_file_to_string",
+    "body": [
+        "def read_file_to_string(file_path: str) -> str:",
+        "    '''",
+        "    Reads the provided file to string.",
+        "    '''",
+        "    with open(file_path, 'rt') as file:",
+        "        text = file.read()",
+        "        return text",
+        "",
+        "if __name__ == '__main__':",
+        "    text = read_file_to_string('${0:text.txt}')",
+        "    print(text)"
+    ]
+}
