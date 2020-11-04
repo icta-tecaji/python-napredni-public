@@ -1,12 +1,14 @@
 # Tečaj Python napredni
 
+Gradiva za napredni tečaj v Pytohnu.
+
 ## Vsebina:
-- [Priprava okolja](./Del_01_Priprava_okolja)
+- [Del 01: Priprava okolja](./Del_01_Priprava_okolja)
     - pyenv
     - Python virtualna okolja
     - pip - Python Package Installer
     - Priprava okolja v VS Code
-- Web Communication and Web Scraping
+- [Del 02: Web Communication and Web Scraping](./Del_02_Web_Communication_and_Web_Scraping)
     - HTTP REST APIs (requests library)
     - Parsing JSON responses
     - Web Scraping

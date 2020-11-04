@@ -1,0 +1,19 @@
+# vaja_bicikelj
+bicikelj_url = 'https://opendata.si/promet/bicikelj/list/'
+
+# vaja bgp_api
+asn_list = [135340, 43350, 24940, 34305]
+url = 'https://api.bgpview.io/search'
+
+# parsing JSON
+url_todos = 'https://jsonplaceholder.typicode.com/todos'
+url_users = 'https://jsonplaceholder.typicode.com/users'
+
+# webscraping
+url_got = 'https://en.wikipedia.org/wiki/List_of_Game_of_Thrones_episodes'
+url_ebola = 'https://raw.githubusercontent.com/plotly/datasets/master/2014_ebola.csv'
+url_banks = 'https://www.fdic.gov/bank/individual/failed/banklist.html'
+url_imdb = 'http://www.imdb.com/title/tt0944947/episodes'
+url_fasttrack = 'http://www.fasttrack.co.uk/league-tables/tech-track-100/league-table/'
+
+rows_fastrack = ['Rank', 'Company Name', 'Webpage', 'Description', 'Location', 'Year end', 'Annual sales rise over 3 years', 'Sales £000s', 'Staff', 'Comments']
