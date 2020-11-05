@@ -41,6 +41,8 @@ eval "$(pyenv virtualenv-init -)"
 
 ## venv — Creation of virtual environments
 - https://docs.python.org/3/library/venv.html
+- Namestitev venv knjižnice (samo prvič):
+    - `python -m pip install virtualenv`
 - Ustvarjanje novega virtualnega okolja:
     - `python -m venv .venv`
 - Aktivacija virtualnega okolja:
