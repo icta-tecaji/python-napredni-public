@@ -1,0 +1,1 @@
+When I open a latin1 file in my editor VIM indicates [CONVERTED] after the file name under the statusline.

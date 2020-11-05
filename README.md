@@ -12,3 +12,9 @@ Gradiva za napredni tečaj v Pytohnu.
     - HTTP REST APIs (requests library)
     - Parsing JSON responses
     - Web Scraping
+- [Del 03: Branje in pisanje v datoteke](./Del_03_Branje_in_pisanje_v_datoteke)
+    - Delo s tekstovnimi datotekami
+    - Delo z binarnimi datotekami
+    - JSON datoteke
+    - CSV datoteke
+    - Excel datoteke
