@@ -24,3 +24,10 @@ Gradiva za napredni tečaj v Pytohnu.
 - [Del 05: Regular Expressions](./Del_05_Regular_expressions)
     - Pregled modula re
     - Pravila sintakse Regular Expressions
+- [Del 06: Procesiranje podatkov](./Del_06_Procesiranje_podatkov)
+    - List Comprehension
+    - Lambda function
+    - Map Function
+    - Filter Function
+    - Reduce Function
+    - Pandas osnove
