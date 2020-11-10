@@ -18,3 +18,9 @@ Gradiva za napredni tečaj v Pytohnu.
     - JSON datoteke
     - CSV datoteke
     - Excel datoteke
+- [Del 04: Del 04: Branje in pisanje podatkov iz SQL podatkovnih baz](./Del_04_Povezava_s_SQL_podatkovnimi_bazami)
+    - SQLAlchemy
+    - Podatkovne baze in pandas
+- [Del 05: Regular Expressions](./Del_05_Regular_expressions)
+    - Pregled modula re
+    - Pravila sintakse Regular Expressions

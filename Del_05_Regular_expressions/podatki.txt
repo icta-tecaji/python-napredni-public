@@ -1,0 +1,53 @@
+sentiment_analysis = ['0,1467962897,Mon Apr 06 23:01:04 PDT 2009,NO_QUERY,aleskywalker,@nick_carter Come to the chat  just 15 minutes  please? http://fanclub.backstreetboys.com/chat.php',
+'0,1467962938,Mon Apr 06 23:01:04 PDT 2009,NO_QUERY,jess___x,Boredd. Colddd @blueKnight39 Internet keeps stuffing up. Save me! https://www.tellyourstory.com',
+'0,1467963418,Mon Apr 06 23:01:14 PDT 2009,NO_QUERY,Zimily,"I had a horrible nightmare last night @anitaLopez98 @MyredHat31 which affected my sleep, now I\'m really tired"',
+'0,1467963477,Mon Apr 06 23:01:15 PDT 2009,NO_QUERY,Augustina22,"im lonely  keep me company @YourBestCompany! @foxRadio https://radio.foxnews.com 22 female, new york"',
+'0,1467963715,Mon Apr 06 23:01:18 PDT 2009,NO_QUERY,missmadison,@Born_4_Broadway Lost  and it was St. Ignacius Prepatory School. Haha.']
+
+sentiment_analysis = ['I would like to apologize for the repeated Video Games Live related tweets. 32 minutes ago', '@zaydia but i cant figure out how to get there / back / pay for a hotel 1st May 2019', 'FML: So much for seniority, bc of technological ineptness 23rd June 2018 17:54']
+
+sentiment_analysis = 'ITS NOT ENOUGH TO SAY THAT IMISS U #MissYou #SoMuch #Friendship #Forever'
+
+my_links = "Just check out this link: www.amazingpics.com. It has amazing photos!"
+
+my_string = "the 80s music hits were much better that the 90s"
+
+my_string = "I love the music of Mr.Go. However, the sound was too loud."
+
+my_string = "Elephants are the world's largest land animal! I would love to see an elephant one day"
+
+my_string = "Yesterday I spent my afternoon with my friends: MaryJohn2 Clary3"
+
+my_string = "My&name&is#John Smith. I%live$in#London."
+
+my_links = "Bad website: www.99.com. Favorite site: www.hola.com"
+
+sentiment_analysis = ['AIshadowhunters.txt aaaaand back to my literature review. At least i have a friendly cup of coffee to keep me company',
+ "ouMYTAXES.txt I am worried that I won't get my $900 even though I paid tax last year"]
+
+emails = ['n.john.smith@gmail.com', '87victory@hotmail.com', '!#mary-=@msca.net']
+
+passwords = ['Apple34!rose', 'My87hou#4$', 'abc123']
+
+email_tests = ['email', 'Email', 'e Mail', 'e mail', 'E-mail', 'e-mail', 'eMail', 'E-Mail', 'EMAIL']
+
+
+text = "Clary has 2 friends who she spends a lot time with. Susan has 3 brothers while John has 4 sisters."
+
+sentiment_analysis = ['Just got ur newsletter, those fares really are unbelievable. Write to statravelAU@gmail.com or statravelpo@hotmail.com. They have amazing prices', 'I should have paid more attention when we covered photoshop in my webpage design class in undergrad. Contact me Hollywoodheat34@msn.net.', 'hey missed ya at the meeting. Read your email! msdrama098@hotmail.com']
+
+test_urls = [
+ 'https://www.amazon.com/Technology-Ventures-Enterprise-Thomas-Byers/dp/0073523429',
+ 'http://www.interactivedynamicvideo.com/',
+ 'http://www.nytimes.com/2007/11/07/movies/07stein.html?_r=0',
+ 'http://evonomics.com/advertising-cannot-maintain-internet-heres-solution/',
+ 'HTTPS://github.com/keppel/pinn',
+ 'Http://phys.org/news/2015-09-scale-solar-youve.html',
+ 'https://iot.seeed.cc',
+ 'http://www.bfilipek.com/2016/04/custom-deleters-for-c-smart-pointers.html',
+ 'http://beta.crowdfireapp.com/?beta=agnipath',
+ 'https://www.valid.ly?param'
+]
+
+contract = 'Provider will invoice Client for Services performed within 30 days of performance.  Client will pay Provider as set forth in each Statement of Work within 30 days of receipt and acceptance of such invoice. It is understood that payments to Provider for services rendered shall be made in full as agreed, without any deductions for taxes of any kind whatsoever, in conformity with Provider’s status as an independent contractor. Signed on 03/25/2001.'
+
