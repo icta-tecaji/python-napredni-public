@@ -4,3 +4,4 @@ pandas
 lxml
 html5lib
 matplotlib
+SQLAlchemy
