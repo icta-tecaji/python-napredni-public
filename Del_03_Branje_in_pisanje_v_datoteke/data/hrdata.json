@@ -1,0 +1,38 @@
+{
+    "0": {
+        "Name": "Graham Chapman",
+        "Hire Date": "03\/15\/14",
+        "Salary": 50000.0,
+        "Sick Days remaining": 10
+    },
+    "1": {
+        "Name": "John Cleese",
+        "Hire Date": "06\/01\/15",
+        "Salary": 65000.0,
+        "Sick Days remaining": 8
+    },
+    "2": {
+        "Name": "Eric Idle",
+        "Hire Date": "05\/12\/14",
+        "Salary": 45000.0,
+        "Sick Days remaining": 10
+    },
+    "3": {
+        "Name": "Terry Jones",
+        "Hire Date": "11\/01\/13",
+        "Salary": 70000.0,
+        "Sick Days remaining": 3
+    },
+    "4": {
+        "Name": "Terry Gilliam",
+        "Hire Date": "08\/12\/14",
+        "Salary": 48000.0,
+        "Sick Days remaining": 7
+    },
+    "5": {
+        "Name": "Michael Palin",
+        "Hire Date": "05\/23\/13",
+        "Salary": 66000.0,
+        "Sick Days remaining": 8
+    }
+}
