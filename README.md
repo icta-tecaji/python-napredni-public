@@ -31,3 +31,14 @@ Gradiva za napredni tečaj v Pytohnu.
     - Filter Function
     - Reduce Function
     - Pandas osnove
+- [Del 07: Generatorji](./Del_07_Generatorji)
+- [Del 08: Generiranje poročil](./Del_08_Generiranje_porocil)
+    - Delo z Word dokumenti
+    - Delo s PDF dokumenti
+- [Del 09: Interakcija z operacijskim sistemom](./Del_09_Interakcija_z_operacijskim_sistemom) 
+    - Upravljanje Python skripte iz ukazne vrstice
+    - Input funkcija
+    - Upravljanje z datotekami in mapami
+    - Izvajanje zunajnjih ukazov (Python Subprocesses)
+
+
