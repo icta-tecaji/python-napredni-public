@@ -9,3 +9,4 @@ python-docx
 pypdf2
 PyPDF4
 typer
+openpyxl
