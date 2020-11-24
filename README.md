@@ -40,5 +40,11 @@ Gradiva za napredni tečaj v Pytohnu.
     - Input funkcija
     - Upravljanje z datotekami in mapami
     - Izvajanje zunajnjih ukazov (Python Subprocesses)
-
+- [Del 10: Moduli, paketi in uvoz](./Del_10_Moduli_paketi_in_uvoz)
+    - Python moduli
+    - Uporaba import stavka
+    - importlib.resources
+    - Python paketi
+    - Struktura Python aplikaciji
+    
 
