@@ -46,5 +46,7 @@ Gradiva za napredni tečaj v Pytohnu.
     - importlib.resources
     - Python paketi
     - Struktura Python aplikaciji
-    
+- [Del 11: Decorators](./Del_11_Decorators)
+- [Del 12: Context Managers](./Del_12_Context_Managers)
+
 
