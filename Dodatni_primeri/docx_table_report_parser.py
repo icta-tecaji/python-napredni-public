@@ -92,8 +92,7 @@ class DocxTableReportParser:
             ]
         ]
 
-        for row in rows:
-            self.sheet.append(row)
+        self._append_rows(rows)
 
         # združimo celice
         self.sheet.merge_cells("C1:D1")
@@ -212,7 +211,9 @@ class DocxTableReportParser:
 
 
 if __name__ == "__main__":
-    my_parser = DocxTableReportParser("data/PRIMER_kompleksna_tabela.docx")
+    my_parser = DocxTableReportParser(
+        "Dodatni_primeri/data/PRIMER_kompleksna_tabela.docx"
+    )
 
     my_parser.add_total_energy_registers(0, 1)
     my_parser.add_energy_profile_daily_snapshot(2, 3)
