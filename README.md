@@ -51,5 +51,6 @@ Gradiva za napredni tečaj v Pytohnu.
 - [Del 13: Testiranje kode](./Del_13_Testiranje_kode)
     - unittest
     - pytest
-
-
+- [Del 14: Benchmarking](./Del_14_Benchmarking)
+- [Del 15: Code coverage](./Del_15_Code_coverage)
+- [Del 16: Code quality and styling](./Del_16_Code_quality_and_styling)
