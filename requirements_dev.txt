@@ -4,3 +4,4 @@ notebook
 flake8
 black
 rope
+pytest
