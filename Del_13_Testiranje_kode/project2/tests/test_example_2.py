@@ -13,7 +13,19 @@ def test_get_response_success(monkeypatch):
     THEN check the HTTP response
     """
 
-    pass
+    class MockResponse:
+        def __init__(self):
+            self.status_code = 200
+            self.url = "http://www.testurl.com"
+
+        def json(self):
+            return {"account": "5678", "url": "http://www.testurl.com"}
+
+    def mock_get(url):
+        return MockResponse()
+
+    monkeypatch.setattr(requests, "get", mock_get)
+    assert example2() == (200, "http://www.testurl.com")
 
 
 def test_get_response_failure(monkeypatch):
@@ -23,4 +35,16 @@ def test_get_response_failure(monkeypatch):
     THEN check the HTTP response
     """
 
-    pass
+    class MockResponse:
+        def __init__(self):
+            self.status_code = 404
+            self.url = "http://www.testurl.com"
+
+        def json(self):
+            return {"error": "bad"}
+
+    def mock_get(url):
+        return MockResponse()
+
+    monkeypatch.setattr(requests, "get", mock_get)
+    assert example2() == (404, "")

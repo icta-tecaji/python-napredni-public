@@ -4,7 +4,7 @@ from math import pi
 from time import time
 from datetime import datetime
 
-SOME_GLOBAL_VAR = 'GLOBAL VAR NAMES SHOULD BE IN ALL_CAPS_WITH_UNDERSCOES'
+SOME_GLOBAL_VAR = "GLOBAL VAR NAMES SHOULD BE IN ALL_CAPS_WITH_UNDERSCOES"
 
 
 def multiply(first_value, second_value):
@@ -28,11 +28,11 @@ def is_sum_lucky(first_value, second_value):
     if first_value is not None and second_value is not None:
         result = first_value + second_value
         if result == 7:
-            message = 'a lucky number!'
+            message = "a lucky number!"
         else:
-            message = 'an unlucky number!'
+            message = "an unlucky number!"
     else:
-        message = 'an unknown number! Could not calculate sum...'
+        message = "an unknown number! Could not calculate sum..."
 
     return message
 
@@ -44,16 +44,12 @@ class SomeClass:
         """Initialize an instance of SomeClass."""
         self.some_other_arg = some_other_arg
         self.some_arg = some_arg
-        list_comprehension = [
-            ((100/value)*pi)
-            for value in some_arg
-            if value != 0
-        ]
+        list_comprehension = [((100 / value) * pi) for value in some_arg if value != 0]
         current_time = time()
         date_and_time = datetime.now()
-        print(f'created SomeClass instance at unix time: {current_time}')
-        print(f'datetime: {date_and_time}')
-        print(f'some calculated values: {list_comprehension}')
+        print(f"created SomeClass instance at unix time: {current_time}")
+        print(f"datetime: {date_and_time}")
+        print(f"some calculated values: {list_comprehension}")
 
     def some_public_method(self):
         """Is a method docstring."""

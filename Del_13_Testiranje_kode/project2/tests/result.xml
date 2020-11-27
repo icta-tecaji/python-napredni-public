@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="2" tests="11" time="0.042" timestamp="2020-11-27T09:38:04.398682" hostname="python-iskraemeco">
+        <testcase classname="tests.test_wallet" name="test_default_initial_amount" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_setting_initial_amount" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_wallet_add_cash" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_wallet_spend_cash" time="0.000" />
+        <testcase classname="tests.test_wallet" name="test_wallet_spend_cash_raises_exception_on_insufficient_amount" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_transactions[30-10-20]" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_transactions[20-2-18]" time="0.001" />
+        <testcase classname="tests.test_wallet" name="test_add" time="0.001">
+            <failure message="AssertionError: failed&#10;assert 28 == 100&#10;  +28&#10;  -100">def test_add():
+&gt;       assert 15 + 13 == 100, "failed"
+E       AssertionError: failed
+E       assert 28 == 100
+E         +28
+E         -100
+
+tests/test_wallet.py:48: AssertionError</failure>
+        </testcase>
+        <testcase classname="tests.test_wallet" name="test_add_2" time="0.000" />
+        <testcase classname="tests.test_wallet" name="test_add_3" time="0.000">
+            <skipped type="pytest.skip" message="unconditional skip">/home/leons/python-napredni-public/Del_13_Testiranje_kode/project2/tests/test_wallet.py:56: unconditional skip</skipped>
+        </testcase>
+        <testcase classname="tests.test_wallet" name="test_add_4" time="0.000">
+            <skipped type="pytest.skip" message="unconditional skip">/home/leons/python-napredni-public/Del_13_Testiranje_kode/project2/tests/test_wallet.py:61: unconditional skip</skipped>
+        </testcase>
+    </testsuite>
+</testsuites>

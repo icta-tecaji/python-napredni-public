@@ -5,3 +5,6 @@ flake8
 black
 rope
 pytest
+memory_profiler
+coverage
+pytest-cov
