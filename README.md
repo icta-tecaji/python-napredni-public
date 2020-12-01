@@ -54,3 +54,5 @@ Gradiva za napredni tečaj v Pytohnu.
 - [Del 14: Benchmarking](./Del_14_Benchmarking)
 - [Del 15: Code coverage](./Del_15_Code_coverage)
 - [Del 16: Code quality and styling](./Del_16_Code_quality_and_styling)
+- [Del 17: Python Wheels](./Del_17_Python_Wheels)
+- [Del 18:  Del 18: Objava Python paketa na PyPI](Del_18_Objava_python_paketa_na_pypi)
