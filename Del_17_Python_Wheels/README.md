@@ -4,6 +4,7 @@
 - A Python .whl file is essentially a ZIP (.zip) archive with a specially crafted filename that tells installers what Python versions and platforms the wheel will support.
 - A wheel filename:
     - `{dist}-{version}(-{build})?-{python}-{abi}-{platform}.whl`
+    - Primer: `cryptography-3.2.1-cp35-abi3-manylinux2010_x86_64.whl`
 - Different Types of Wheels:
     - A **universal wheel** contains py2.py3-none-any.whl. It supports both Python 2 and Python 3 on any OS and platform. The majority of wheels listed on the Python Wheels website are universal wheels.
     - A **pure-Python wheel** contains either py3-none-any.whl or py2.none-any.whl. It supports either Python 3 or Python 2, but not both. It’s otherwise the same as a universal wheel, but it’ll be labeled with either py2 or py3 rather than the py2.py3 label.
