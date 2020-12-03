@@ -10,3 +10,4 @@ pypdf2
 PyPDF4
 typer
 openpyxl
+attrs
