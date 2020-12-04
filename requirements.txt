@@ -11,3 +11,8 @@ PyPDF4
 typer
 openpyxl
 attrs
+aiohttp
+aiofiles
+aiodns
+codetiming
+colorama
