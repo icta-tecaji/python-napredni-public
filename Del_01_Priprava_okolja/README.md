@@ -19,13 +19,17 @@
 - `sudo apt-get update`
 - `sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl`
 - `curl https://pyenv.run | bash`
-- Dodamo v `~/.bashrc`:
+- Dodamo na vrh v `~/.profile`:
 ```bash
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 ```
-- `exec "$SHELL"`
+- Dodamo na konec v `~/.bashrc`:
+```bash
+eval "$(pyenv init -)"
+```
+- Se odjavimo iz seje in ponovno prijavimo.
 
 ### Uporaba
 - Seznam verzij, ki jih je možno namestiti:
