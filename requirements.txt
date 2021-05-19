@@ -11,10 +11,11 @@ PyPDF4
 typer
 openpyxl
 attrs
-aiohttp
 aiofiles
 aiodns
 codetiming
 colorama
 paramiko==2.7.2
 scp==0.13.3
+numba==0.53.1
+aiohttp[speedups]
