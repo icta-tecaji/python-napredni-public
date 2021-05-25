@@ -1,0 +1,13 @@
+venv
+.dockerignore
+Dockerfile
+.gitignore
+.vscode
+README.md
+docker-compose.yml
+Makefile
+docker-compose.prod.yml
+.env_local
+.venv
+.pytest_cache
+tests

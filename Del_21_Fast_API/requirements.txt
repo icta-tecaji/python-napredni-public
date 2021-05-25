@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+asyncpg
+databases[postgresql]
+psycopg2-binary
+SQLAlchemy
+python-multipart
+passlib[bcrypt]
+pyjwt
